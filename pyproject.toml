@@ -4,10 +4,9 @@ version = "1.0.0"
 description = ""
 readme = "README.md"
 
-requires-python = "==3.11.*"
+requires-python = ">=3.11"
 
 dependencies = [
-    "docker>=7.1.0",
     "duckdb",
     "jupyter",
     "matplotlib",
